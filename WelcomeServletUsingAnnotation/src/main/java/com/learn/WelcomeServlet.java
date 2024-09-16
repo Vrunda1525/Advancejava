@@ -35,7 +35,7 @@ public class WelcomeServlet extends HttpServlet {
 		
 		// Response is what is we send back to User (Browser)
 		PrintWriter writer = response.getWriter();
-		writer.append("Welcome " + var1);
+		writer.append("Welcome " + var1 + var2);
 		writer.close();
 	}
 
